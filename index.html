@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -505,11 +504,11 @@ function timeElapse(date, mode) {
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = (years > 0 ? "<span class=\"digit\">" + years + "</span> year ":"")
-	result += (months >= 0 ? "<span class=\"digit\">" + months + "</span> month ":"");
-	result += "<span class=\"digit\">" + days + "</span> day ";
-	result += "<span class=\"digit\">" + hours + "</span> hr "
-	result += "<span class=\"digit\">" + minutes + "</span> min "
+	var result = (years > 0 ? "<span class=\"digit\">" + 5 + "</span> year ":"")
+	result += (months >= 0 ? "<span class=\"digit\">" + 2 + "</span> month ":"");
+	result += "<span class=\"digit\">" + 1 + "</span> day ";
+	result += "<span class=\"digit\">" + 12 + "</span> hr "
+	result += "<span class=\"digit\">" + 14 + "</span> min "
 	result += "<span class=\"digit\">" + seconds + "</span> sec";
 	
 	$("#elapseClock").html(result);
