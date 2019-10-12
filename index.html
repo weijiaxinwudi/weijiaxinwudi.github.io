@@ -548,7 +548,7 @@ function showLoveU() {
 				<span class="space"/><span class="comments">* 待到桃之夭夭，陌上花开可好？但愿缘浅情深，君亦未曾苍老；</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
 				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Me"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MyDear"</span>);<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"You"</span>);<br />
 				<span class="comments">// 待到月满西楼，背影成双可好？但愿莫失莫忘，君亦岁月静好； 
  </span><br />
  i.love(u);<br />
@@ -607,6 +607,7 @@ i.miss(u);<br />
 		together.setMilliseconds(0);
 		
 		$("#loveHeart").click(function(){
+			alert("ddddddddddddddddddd")
 			displayMode *= -1;
 			timeElapse(together, displayMode);
 		});
